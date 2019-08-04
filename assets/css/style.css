@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+aside{
+	width: 350px;
+	float: right;
+}
+
+
+band 
+{
+     max-width: 100%;
+     height: auto;
+}
+footer{
+	background-color: dark;
+     position: fixed;
+     width: 100%;
+}
+
+a:hover {
+background-color: #00f900; 
+color: white;
+}
+
+h2{
+	font-family: 'Baloo Bhai', cursive;
+	text-align: center;
+}
+h1{
+	font-family: 'Baloo Bhai', cursive;
+font-family: 'Modak', cursive;
+text-align: center;
+}
+h3{
+	color: red;
+}
+ol{
+	position: block;
+}
+
+table{
+	margin: 10px;
+}
+p{
+	text-align: center;
+}
+@media handled and(min-width: 769 px){
+	aside{
+    width: 350px;
+	float: right;
+	}
+}
+@media handled and(max-width: 768 px){
+	aside{
+	visibility: hidden;
+	}
+}
+
+span{
+	color: red;
+}
